@@ -32,12 +32,12 @@ class MainActivity2 : AppCompatActivity() {
 
             data.putExtra(
                 "question_key",
-                "answer_key"
+                question
             ) // puts one string into the Intent, with the key as 'string1'
 
             data.putExtra(
-                "smwer_key",
-                "user_answer"
+                "answer_key",
+                answer
             ) // puts another string into the Intent, with the key as 'string2
 
             setResult(RESULT_OK, data) // set result code and bundle data for response
